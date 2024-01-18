@@ -11,7 +11,6 @@ git log --oneline = shows a small version of commits
 git rm --cached index.txt = remove untracked file from staging area
 git log --all = shows all commits 
 git checkout master = checkout master branch
-git branch -a = ??
 git branch newFeature = checkout to a new feature branch!
 git branch -a = show the branches
 git merge newFeature = merge new feature branch
