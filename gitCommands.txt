@@ -14,4 +14,4 @@ git checkout master = checkout master branch
 git branch -a = ??
 git branch newFeature = checkout to a new feature branch!
 git branch -a = show the branches
-
+git merge newFeature = merge new feature branch
