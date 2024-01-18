@@ -8,3 +8,4 @@ git commit -m 'message here' = commit your git changes to repository
 git status = check status of files
 git log = shows all commits 
 git log --oneline = shows a small version of commits 
+git rm --cached index.txt = remove untracked file from staging area
