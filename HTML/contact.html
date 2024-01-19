@@ -1,0 +1,70 @@
+<!DOCTYPE >
+<html>
+  <head>
+    <title>Contact Form</title>
+  </head>
+  <body>
+    <h1>Contact Form</h1>
+
+    <form>
+      <div>
+        <label for="name" id="name">Name:</label>
+        <input placeholder="enter name" type="text" name="name" id="name" />
+      </div>
+
+      <div>
+        <label for="email" id="email">Email:</label>
+        <input placeholder="enter email" type="text" name="email" id="" />
+      </div>
+
+      <div>
+        <label for="message" id="message">Message:</label><br />
+        <textarea
+          placeholder="enter your message"
+          name=""
+          id="message"
+          cols="30"
+          rows="10"
+        ></textarea>
+      </div>
+
+      <div>
+        <label for="subject" id="subject">Subject:</label>
+        <input placeholder="enter subject" type="text" id="subject"/>
+      </div>
+
+      <div>
+        <label for="phone">Phone:</label>
+        <input placeholder="phone number" type="phone" />
+      </div>
+
+      <div>
+        <label for="priority">Priority:</label>
+        <select name="" id="priority">
+          <option value="low">Low</option>
+          <option value="med">Medium</option>
+          <option value="high">High</option>
+        </select>
+        <!-- low, medium, high -->
+      </div>
+
+      <div>
+        <label>Newsletter Subscription:</label>
+        <br />
+        <label for="option1"></label>
+        <input type="radio" name="option1" id="option1">Yes</input>
+        <input type="radio" name="option1" id="option1">No</input>
+      </div>
+
+      <div>
+        <label>Gender:</label><br />
+        <label for="male">Male</label>
+        <input type="checkbox" name="male" id="male" />
+        <label for="female">Female</label>
+        <input type="checkbox" name="female" id="female" />
+      </div>
+
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
