@@ -1,0 +1,28 @@
+body {
+  background-color: aquamarine;
+}
+
+li {
+  background-color: red;
+}
+
+.listClass {
+  background-color: orange;
+}
+
+#listId {
+  background-color: yellow;
+}
+li[value='list'] {
+  background-color: green;
+}
+
+.listClass1,
+.listClass2 {
+  background-color: skyblue;
+}
+
+ul .dec {
+  background-color: white;
+  color: indigo;
+}

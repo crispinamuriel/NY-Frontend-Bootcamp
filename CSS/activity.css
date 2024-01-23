@@ -1,0 +1,21 @@
+.title {
+}
+.subtitle {
+  text-decoration: underline;
+  font-style: italic;
+  text-shadow: 3px 3px 3px rgba(144, 53, 53, 0.6);
+}
+
+.underline {
+  text-decoration: underline;
+  font-style: italic;
+}
+.spread {
+  letter-spacing: 4px;
+  text-align: center;
+}
+
+.strikethrough {
+  text-decoration: line-through;
+  text-align: center;
+}
