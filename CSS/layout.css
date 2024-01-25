@@ -1,0 +1,124 @@
+body {
+  background-color: cyan;
+}
+.boxModel {
+  background-color: white;
+  border: blue 6px;
+  margin: 20px;
+  padding: 40px;
+  border-style: double;
+  border-left-style: solid;
+  border-right-color: brown;
+  border-radius: 15px;
+}
+.box-content {
+  width: 200px;
+  height: 200px;
+  padding: 40px;
+  background-color: orchid;
+  border: 2px black solid;
+  box-sizing: content-box;
+}
+.border {
+  width: 200px;
+  height: 200px;
+  padding: 40px;
+  background-color: tomato;
+  border: 2px black solid;
+  box-sizing: border-box;
+}
+.block {
+  background-color: green;
+}
+.inline {
+  background-color: greenyellow;
+  height: 300px;
+  width: 500px;
+}
+.inlineBlock {
+  height: 100px;
+  background-color: goldenrod;
+  display: inline-block;
+}
+
+/* El Positioning : default is static*/
+
+.static {
+  position: static;
+  background-color: lawngreen;
+  width: 200px;
+  height: 50px;
+}
+
+.relative {
+  position: relative;
+  background-color: cadetblue;
+  width: 200px;
+  height: 50px;
+  left: 80px;
+  top: 20px;
+  /* z-index: -10; */
+}
+
+.absolute {
+  background-color: slateblue;
+  width: 200px;
+  height: 50px;
+  position: absolute;
+}
+/* Fixed DEPENDS ON THE VIEWPORT */
+.fixed {
+  background-color: orange;
+  width: 200px;
+  height: 50px;
+  top: 100px;
+  position: fixed;
+}
+
+.sticky {
+  background-color: skyblue;
+  width: 200px;
+  height: 50px;
+  position: sticky;
+  top: 10px;
+  left: 30px;
+}
+/* FOATS */
+.float-right {
+  background-color: burlywood;
+  width: 200px;
+  height: 100px;
+  float: right;
+}
+.float-left {
+  background-color: indianred;
+  width: 200px;
+  height: 100px;
+  float: left;
+}
+.clear-floats {
+  background-color: red;
+  width: 200px;
+  height: 100px;
+  float: clear;
+}
+/* centering elements */
+.parent-box {
+  height: 200px;
+  width: 300px;
+  background-color: pink;
+  margin: auto;
+}
+.center-vertical {
+  background-color: coral;
+  display: flex;
+  align-items: center;
+}
+
+.center-horizontal-vertical {
+  background-color: green;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
