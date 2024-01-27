@@ -12,12 +12,12 @@ body {
 
 ul {
   position: fixed;
-  top: 0;
+  top: 0.7em;
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #d4594c;
   border-radius: 25px;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -35,5 +35,11 @@ li a {
 }
 
 li a:hover:not(.active) {
-  background-color: #111;
+  background-color: #f44e3f;
+}
+.footer {
+  position: fixed;
+  bottom: 1em;
+  text-align: center;
+  margin-left: 50vw;
 }
