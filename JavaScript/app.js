@@ -1,6 +1,3 @@
-console.log('hi');
-// Jan 31, Activity
-
 // Task 1: Use arrow fn to calc the square of num and log result to console
 const square = (num) => Math.pow(num, 2);
 
